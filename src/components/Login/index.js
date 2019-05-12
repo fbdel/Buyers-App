@@ -59,12 +59,15 @@ class Login extends React.Component {
       return <Redirect to='/home' />
     }
     return (
-      <div className="container">
+      <div className="container" 
+      style={{
+        backgroundColor: "#fffef9"
+      }}>
         <div
           className="jumbotron bg-info text-white"
           style={{
-            marginTop: 20,
-            marginBottom: 180,
+          
+            marginBottom: 5,
             // backgroundColor: "#fe8a71",
             textShadow: "-1px -1px 0 #000",
             textShadow: "1px -1px 0 #000",
@@ -81,6 +84,8 @@ class Login extends React.Component {
               <b>Buyers App</b>
             </h1>
             <h5>Where Tech and Buyers Meet</h5>
+          </p>
+        </div>
 
             <div className="d-flex justify-content-center h-100">
               <div className="card text-center" style={{ marginTop: 20 }}>
@@ -142,8 +147,7 @@ class Login extends React.Component {
                 </div>
               </div>
             </div>
-          </p>
-        </div>
+         
       </div>
     );
   }

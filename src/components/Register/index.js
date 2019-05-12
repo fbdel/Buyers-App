@@ -164,11 +164,14 @@ class Register extends React.Component {
       return <Redirect to='/' />
     }
     return (
-      <div className="container">
+      <div className="container"
+        style={{
+          backgroundColor: "#fffef9"
+        }}>
         <div
           className="jumbotron bg-info text-white"
           style={{
-            marginTop: 20,
+        
             marginBottom: 0,
             // backgroundColor: "#fe8a71",
             textShadow: "-1px -1px 0 #000",
@@ -184,6 +187,7 @@ class Register extends React.Component {
             </h1>
             <h5 >You will not regret it</h5>
           </p>
+        </div>
 
           <div className="d-flex justify-content-center h-100">
             <div className="card text-center" style={{ marginTop: 20 }}>
@@ -283,7 +287,7 @@ class Register extends React.Component {
                 <div className="d-flex justify-content-center links" />
               </div>
             </div>
-          </div>
+          
         </div>
       </div>
     );
