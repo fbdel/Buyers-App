@@ -36,6 +36,7 @@ class Navbar extends React.Component {
         var parsedUser = JSON.parse(user);
         userName= parsedUser.firstName + ' ' +parsedUser.lastName;
       }
+      console.log (userName)
       return (
         <div>
           <div id="mySidenav" className="sidenav bg-info">
@@ -46,9 +47,13 @@ class Navbar extends React.Component {
             >
               &times;
             </a>
-            <p align="center" style={{ fontSize: 30 }}>
-              <b>{userName}</b>
-            </p>
+            <div className = "bg-warning">
+               <p align="center" style={{ fontSize: 30 }}>
+                <b>{userName}</b>
+               </p>
+            </div>
+           
+            <hr/>
             <a href="/home">Events</a>
             <a href="/additemtoevent">Items</a>
             <a href="" onClick={() => this.logout()}>
