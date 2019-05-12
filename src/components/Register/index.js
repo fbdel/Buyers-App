@@ -166,7 +166,7 @@ class Register extends React.Component {
     return (
       <div className="container"
         style={{
-          backgroundColor: "#83d0c9"
+          backgroundColor: "#bdeaee"
         }}>
         <div
           className="jumbotron bg-info text-white"
