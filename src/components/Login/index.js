@@ -61,7 +61,7 @@ class Login extends React.Component {
     return (
       <div className="container" 
       style={{
-        backgroundColor: "#fffef9"
+        backgroundColor: "#bdeaee"
       }}>
         <div
           className="jumbotron bg-info text-white"
