@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application allows user to create accounts, organize product data by event, and download the data in a CSV format.
+This application allows user to create accounts, submit/organize product data by event, and download the data in a CSV format.
 
 ## Tech
 
