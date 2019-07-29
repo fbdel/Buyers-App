@@ -17,6 +17,6 @@ This application allows user to create accounts, submit/organize product data by
         - React Modal
         - React Webcam
 
-## Links
+## Doployment 
 
 URL: https://the-buyer-app.herokuapp.com/
