@@ -142,8 +142,9 @@ class Login extends React.Component {
                 <div className="card-footer">
                   <div className="d-flex justify-content-center links">
                     Don't have an account?
-                    <a href="/registerUser">Sign Up</a>
+                    <a className="text-warning" href="/registerUser">Register</a>
                   </div>
+                  <a className="text-dark" href="https://github.com/fbdel/Buyers-App">Github Page</a>
                 </div>
               </div>
             </div>
