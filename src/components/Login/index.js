@@ -59,9 +59,9 @@ class Login extends React.Component {
       return <Redirect to='/home' />
     }
     return (
-      <div className="container">
+      <div className="container-fluid">
         <div
-          className="jumbotron bg-info text-white container-fluid"
+          className="jumbotron bg-info text-white"
           style={{
           
             marginBottom: 1,
@@ -77,10 +77,10 @@ class Login extends React.Component {
           }}
         >
           <p style={{ textAlign: "center" }}>
-            <h1>
+            <h1 style={{ color:"#fefbd8"}}>
               <b>Buyers App</b>
             </h1>
-            <h5>Where Tech and Buyers Meet</h5>
+            <h5 style={{color: "yellow"}}>Where Tech and Buyers Meet</h5>
           </p>
         </div>
 
@@ -145,7 +145,25 @@ class Login extends React.Component {
                 </div>
               </div>
             </div>
-         
+
+
+
+
+        <footer
+          className="page-footer font-small blue"
+          style={{ backgroundColor: "#618685", textAlign: "center" }}
+        >
+
+
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+          </div>
+
+
+        </footer>
+
+
+
       </div>
     );
   }

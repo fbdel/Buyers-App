@@ -3,3 +3,10 @@ body {
 }
 .jumbotron { min-height: 1px; }
 
+.footer{ 
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
