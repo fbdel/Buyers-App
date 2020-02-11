@@ -59,15 +59,12 @@ class Login extends React.Component {
       return <Redirect to='/home' />
     }
     return (
-      <div className="container" 
-      style={{
-        backgroundColor: "#bdeaee"
-      }}>
+      <div className="container">
         <div
-          className="jumbotron bg-info text-white"
+          className="jumbotron bg-info text-white container-fluid"
           style={{
           
-            marginBottom: 5,
+            marginBottom: 1,
             // backgroundColor: "#fe8a71",
             textShadow: "-1px -1px 0 #000",
             textShadow: "1px -1px 0 #000",
